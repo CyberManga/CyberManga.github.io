@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<title>Strona testowa</title>
+	<meta name="description" content="Zoba na tę stronę" />
+	<meta name="keywords" content="anime, po polsku, darmo"/>
+	<meat http-equiv="X-UA-Copmpatible" content="IE=edge,chrome=1" />
+	<link rel="stylesheet" href="styleindex.css" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+<style>
+
+#tytul
+{
+	width: 1500px;
+	height: 70px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#info
+{
+	width: 1500px;
+	height: 350px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+
+#zydek
+{
+	width: 1500px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#przycisk
+{
+	width: 250px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.przycisk
+{
+	width: 200px;
+	height: 60px;
+	font-size: 40px;
+	text-align: center;
+	background-color: black;
+	font-family: 'Combo', cursive;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 20px;
+	margin-right: 10px;
+	color: white;
+}
+
+h1
+{
+	font-size: 70px;
+}
+
+h2
+{
+	font-size: 20px;
+	color: #D20000;
+}
+
+a.tilelink
+{
+	color: #5B5939;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #BAC600;
+}
+	
+</style>
+
+</head>
+
+<body>
+
+	<div id="menu"></div>
+    <script>
+        $.get("menu.html", function(data){
+            $("#menu").replaceWith(data);
+        });
+    </script> 
+	
+	<br/>
+	<br/>
+	
+	<div id="tytul">
+	<h1> Wsparcie </h1>
+	</div>
+	
+	
+	<div id="info">
+	<h2>UWAGA!</br> Wspierasz wyłącznie autora strony i tłumaczeń. </br> Nie wspierasz autora mangi.</h2> </br></br>Aktualnie cel wsparcia ustawiony jest na 11 zł (cena wykupu domeny na rok).</br> Wszystkie nadpłaty ponad cel planuję zachować na potencjalny rozwój strony (przedłużenie domeny + ewentualny płatny hosting jeśli strona nie będzie dawała rady na darmowym)</br></br> Za wszystkie wpłaty dziękuję z całego serduszka.
+	</div>
+	
+	<div id="zydek"> 
+		<img src="img/zydek.png" width="200" height="200">
+	</div>
+	
+	<div id="przycisk">
+		<div class="przycisk">
+		<a href="wsparcie.html" class="tilelink">Wsparcie</>
+		</div<
+	</div>
+	
+	
+	
+	
+	
+<div id="stopka"></div>
+    <script>
+        $.get("stopka.html", function(data){
+            $("#stopka").replaceWith(data);
+        });
+    </script>
+
+</body>

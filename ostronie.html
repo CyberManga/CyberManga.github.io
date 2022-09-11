@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<title>Strona testowa</title>
+	<meta name="description" content="Zoba na tę stronę" />
+	<meta name="keywords" content="anime, po polsku, darmo"/>
+	<meat http-equiv="X-UA-Copmpatible" content="IE=edge,chrome=1" />
+	<link rel="stylesheet" href="styleindex.css" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+	<style>
+	#tytul
+{
+	width: 1500px;
+	height: 80px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#info
+{
+	width: 1500px;
+	height: 350px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+
+h1
+{
+	font-size: 70px;
+}
+	
+	</style>
+</head>
+
+<body>
+
+	<div id="menu"></div>
+    <script>
+        $.get("menu.html", function(data){
+            $("#menu").replaceWith(data);
+        });
+    </script> 
+	
+	<br/>
+	<br/>
+
+	<div id="tytul">
+	<h1> O stronie i autorze </h1>
+	</div>
+	
+	<br/>
+	<br/>
+	
+	<div id="info">
+		Witam nazywam się Clayman i prowadzę tę stronę w pojedynkę i narazie chcę by tak pozostało. Cała zawartość strony jest darmowa, a ja nie otrzymuję żadnych korzyści z jej udostępnianaia (nie zobaczysz tutaj reklam). Jeżeli chcesz wesprzeć mnie i ten projekt zajżyj do działu wsparcie. Jeżeli znalasłeś jakieś błędy w tłumaczeniu (błąd graficzny, ortograficzny itp.), masz uwagi co do wyglądu strony czy propozycję przetłumaczenia mangi napisz do mnie e-mail na adres podany w stopce. Jestem całkowitym amatorem jeśli chodzi o pisanie strony w html/css (gdyby profesjonalny informatyk zobaczył kod strony zszedł by chyba na zawał). Ja i język polski niegdy nie byliśmy przyjaciółmi (zwłaszcza interpunkcja), a z angielskiego tłumaczę głównie wspomagając się tłumaczem. Stronę prowadzę ponieważ sprawia mi radość i satysfakcję. Podczas korzystania z tej strony miej to wszystko na uwadze. Dziękuję za zapoznanie się z tym działem. Życzę miłego czytania. 
+	</div>
+
+
+
+
+
+
+
+
+<div id="stopka"></div>
+    <script>
+        $.get("stopka.html", function(data){
+            $("#stopka").replaceWith(data);
+        });
+    </script>
+
+</body>

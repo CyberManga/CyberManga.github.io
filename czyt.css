@@ -1,0 +1,62 @@
+body
+{
+	/* background pattern from subtlepatterns.com */
+	background-image: url("img/tlo.webp");
+	margin: 0px;
+}
+
+#tytul
+{
+	width: 1500px;
+	height: 65px;
+	margin-right: auto;
+	margin-left: auto;
+	color: white;
+	text-align: center;
+	font-size: 60px;
+	margin-top: 70px;
+}
+
+#autor
+{
+	width: 1500px;
+	height: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* !!!!!! .obrazek najprawdopodobniej trzeba będzie dobrać do konkretnej serii !!!!!! */
+.obrazek
+{
+	width: 700px;
+	height: 1028px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+/*To tzreba będzie jeszcze zminić bo nie mam pomysłu*/
+#nawigacja
+{
+	width: 1500px;
+	height: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#linki
+{
+	width: 1500px;
+	height: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	margin-top: 10px;
+}
+

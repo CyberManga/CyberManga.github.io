@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Strona testowa</title>
+	<meta name="description" content="Zoba na tę stronę" />
+	<meta name="keywords" content="anime, po polsku, darmo"/>
+	<meat http-equiv="X-UA-Copmpatible" content="IE=edge,chrome=1" />
+	<link rel="stylesheet" href="czyt.css" type="text/css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+</head>
+	
+<body>
+
+	<div id="menu"></div>
+    <script>
+        $.get("menu.html", function(data){
+            $("#menu").replaceWith(data);
+        });
+    </script>
+	
+	<div id="tytul">
+		Przykładowy tytuł
+	</div>
+	
+	<div id="autor">Przykładowy autor</div>
+	
+	<div class="obrazek">
+		<img src="tlumaczenia/1-1.png" >
+	</div>
+	
+	<div class="obrazek">
+		<img src="tlumaczenia/1-2.png" >
+	</div>
+	
+	<div class="obrazek">
+		<img src="tlumaczenia/1-3.png" >
+	</div>
+	
+	<div class="obrazek">
+		obrazek1
+	</div>
+	
+	<div id="nawigacja">
+		tu będą przyciski nawigacji
+	</div>
+
+	<div id="linki">
+			Tu będą linki do autora itp
+	</div>
+	
+	<br/><br/>
+	
+	<div id="stopka"></div>
+    <script>
+        $.get("stopka.html", function(data){
+            $("#stopka").replaceWith(data);
+        });
+    </script>
+	
+</body>
+
+
+</html>
