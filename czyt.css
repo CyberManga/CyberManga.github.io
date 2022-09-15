@@ -32,7 +32,7 @@ body
 /* !!!!!! .obrazek najprawdopodobniej trzeba będzie dobrać do konkretnej serii !!!!!! */
 .obrazek
 {
-	width: 700px;
+	width: 1500px;
 	height: 1028px;
 	margin-right: auto;
 	margin-left: auto;
@@ -64,7 +64,7 @@ body
 
 #chapter
 {
-	width: 700px;
+	width: 1500px;
 	height: 30px;
 	margin-right: auto;
 	margin-left: auto;
