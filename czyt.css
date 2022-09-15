@@ -48,6 +48,8 @@ body
 	margin-left: auto;
 	text-align: center;
 	margin-top: 10px;
+	color: white;
+	font-size: 30px;
 }
 
 #linki
@@ -58,5 +60,27 @@ body
 	margin-left: auto;
 	text-align: center;
 	margin-top: 10px;
+}
+
+#chapter
+{
+	width: 700px;
+	height: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+}
+
+a.tilelink
+{
+	color: #676523;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #BAC600;
 }
 
